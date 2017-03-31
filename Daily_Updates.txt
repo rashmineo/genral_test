@@ -1,0 +1,115 @@
+Update(20th-24th March 2017)
+
+- Did the register patient functionality.
+- Added Bootstrap validation for Patient information, patient contact, patient insurance and patient health module.
+- Write the code for MRN generation
+- Write the functionality for Visitor number generation.
+- Design and developed the Patient profile page.
+- Did the changes in Patient information module.
+- File upload and management functionality
+- Stared working on Custom search functionality for patient module.
+=======================================================
+Today's Update 14th-March
+- Project overview by Nishant.
+- System setting up and software installation.
+- making virtual host for bitbucket repository.
+- NDTV domain and breeze(project management tool) sign up.
+========================================================
+Today's Update: 15th March
+1. Done with machine setup for development
+2. Done with local environment setup for MyHealth-HIS project.
+3. Done with the Admin setup and ACL setup for project.
+4. Also moved the code into bitbucket respo.
+5. Had a project discussion with Nishant for next module.
+========================================================
+Today's Task- 16th March
+- Designed database structure for Patient Module.
+- Created migrations for all relevant tables and implemented relations for tables.
+- Started working on Registration for Patient module.
+========================================================
+Today's Task -20th March
+- Designed and developed structure for Patient Information Module.
+- Designed and developed structure for Health Module.
+- Designed and developed structure for Insurance Module.
+=======================================================
+Today's Task -21st March
+- Did the changes in Form schema Patient Information Module.                           
+- Did the curd functions for Patient Information Module.
+- Meeting for code review.
+- Did the curd functions for Patient contact Module.
+- Did the curd functions for Insurance Module.
+=======================================================
+Today's update 22-March
+- Did the register patient functionality.
+- Added Bootstrap validation for Patient information, patient contact, patient insurance and patient health module.
+- Write the code for MRN generation
+- Write the functionality for Visitor number generation.
+- Design and developed the Patient profile page.
+========================================================
+Today's Update 23-March
+- Did the changes in Patient information module.
+- File upload and management functionality
+- Custom search functionality for patient module.
+========================================================
+Update- 24th march
+- Worked on custom search functionality
+- Added validations on Patient Insurance module
+- Started working on API for patient information module
+- Did the changes in migration and added a new fields of Patient information, Patient Insurance and Patient Contact module.
+
+========================================================
+Update- 27th 
+
+- Merged project codes from git repository.
+- Fixed the conflict issues on git.
+- Did the changes in migration.
+- Did Form designing for search functionality as per new requirements for Patient info module.
+- Added the JS validation to From schema.
+- Started search functionality. 
+==========================================================
+Today's Update- 28th March
+
+- Did the modification in validations of Patient information, Patient Insurance and Patient Contact module.
+- Did the designing changes in Patient information, Patient Insurance and Patient Contact module.
+- Did modification in MRN and VRN functionality as per new requirements.
+- Did the changes in migration and added a new fields of Patient information, Patient Insurance and Patient Contact module.
+- Created middle-ware for Patient information web services.
+- Worked on traits for patient information module web services.
+
+==========================================================
+Today's update -29th March
+
+- Discussion for Web services architecture and functionality.
+- Meeting for project architecture
+- R&D on apiblueprint 
+- Install aglio and node js dependencies
+- Created architecture for service
+- started work on patient validate MRN web service.
+==========================================================
+Today's update - 30th March
+- Created a Middle-ware to authenticate MRN and authorization token.
+- Did the functionality to get authorized MRN patient and contact details.
+- Created a Api document for validate MRN web service using aglio.
+- Middle-ware functionality for get specialities list.
+- Merged the code from master repo.
+- Resolved the conflict from repo.
+- Did the functionality for get list of doctor specialities.
+==========================================================
+Today's update - 31st March
+
+- Middle-ware functionality for doctor Api.
+- Did the web service functionality for get list of specialities list.
+- Created a Api document for specialities list web service using aglio.
+- Did the web service functionality for get list of doctor belongs to specific speciality .
+- Worked on collection for web services.
+- Created a Api document for doctor belongs to specific speciality list web service using aglio.
+
+
+
+To: aneesh@ndtv.com, nishantp@ndtv.com
+
+CC: sharad.pai@wwindia.com, vivek.barsaiyan@wwindia.com, priti.sharma@neosofttech.com
+
+Enter credentials:
+– Username: rashmi@ndtvworldwide.com
+– Password: 7jwiec

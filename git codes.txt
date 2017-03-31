@@ -1,0 +1,320 @@
+git add .
+git commit -m "Add msg here"
+git push origin origin-name
+
+
+git banch developemnrt
+git status
+git pull master
+git push origin master
+
+sudo cd /etc/apache2/sites-available/ 
+sudo vim myhealth-his.conf
+sudo service apache2 restart
+
+find  -ctime -5 ----- This is command which will tell you the files which you have created or modified
+================================================
+To get pull from master
+- git status
+- git pull origin master
+- git status
+- git add .
+- git status
+- git commit -m "Modification in Serach and DB"
+- git pull origin master
+- git status
+- git push origin master
+- git status
+
+==========================
+$ aglio --theme-variables slate -i Ankit/sample-doc.md -o ~/Desktop/output.html
+
+aglio --theme-variables slate -i /var/www/html/myhealth-his/docs/blueprints/patients/v1/patients.md -o docs/patient-app-v1.html
+
+
+cp docs/blueprints/patients/v1/patients.md docs/blueprints/patients/v1/specialities.md
+
+aglio --theme-variables slate -i /var/www/html/myhealth-his/docs/blueprints/patients/v1/specialities.md -o docs/speciality-app-v1.html
+
+cjjnbm
+===========
+
+Tinker
+- For login
+Auth::attepmt(['email'=>'admin@admin.com','password'=>'admin123']);
+
+-To check if login
+Auth::user()->id;
+
+- To find from database
+App\Models\Model_name::find($id);
+
+
+========================= 
+modified:   app/Http/Controllers/Admin/PatientInformationController.php
+modified:   app/Http/Kernel.php
+modified:   app/Models/PatientInformation.php
+modified:   app/Models/PatientInsurance.php
+modified:   app/Models/VisitorInformation.php
+modified:   config/constants.php
+modified:   database/migrations/2017_03_16_091939_create_patient_information_table.php
+modified:   database/migrations/2017_03_16_092158_create_patient_contact_table.php
+modified:   database/migrations/2017_03_16_092235_create_patient_insurance_table.php
+modified:   resources/views/patient_information/create.blade.php
+modified:   resources/views/patient_information/form.blade.php
+modified:   resources/views/patient_information/index.blade.php
+modified:   resources/views/patient_information/view.blade.php
+
+Untracked files:
+(use "git add <file>..." to include in what will be committed)
+
+app/Http/Controllers/Api/
+app/Http/Middleware/VerifyApiToken.php
+app/Traits/
+
+if(in_array($condKey, $visitorInformation_array)){
+			    				//dd('test');
+					    		if($counter==0){
+					    			$q->where('visitor_information.'.$condKey,'Like',$condVal);	
+					    		}else{
+					    			$q->whereOr('visitor_information.'.$condKey,'Like',$condVal);
+					    		}
+					    		$counter++;
+				    		}
+				    		if(in_array($condKey, $PatientInformation_array)){
+			    				//dd('test');
+					    		if($counter==0){
+					    			$q->where('patient_information.'.$condKey,'Like',$condVal);	
+					    		}else{
+					    			$q->whereOr('patient_information.'.$condKey,'Like',$condVal);
+					    		}
+					    		$counter++;
+				    		}
+				    		if(in_array($condKey, $patientContact_array)){
+			    				//dd('test');
+					    		if($counter==0){
+					    			$q->where('patient_contact.'.$condKey,'Like',$condVal);	
+					    		}else{
+					    			$q->whereOr('patient_contact.'.$condKey,'Like',$condVal);
+					    		}
+					    		$counter++;
+				    		}
+
+========================
+
+"message": "success.PATIENT_101",
+  "specialities": {
+    "id": 15,
+    "spccode": "SPCID015",
+    "name": "Infectious disease",
+    "spc_picture": "1490692735_35403.jpg",
+    "description": "Infectious disease, also known as infectious diseases, infectious medicine, infectious disease medicine or infectiology, is a medical specialty dealing with the diagnosis, control and treatment of infections."
+  }
+
+
+==================================
+
+$data = Doctor::with('user')->where(function($q) use($drcode){                        
+	if(!empty($drcode)){                            
+		$q->where('drcode','Like',"%$drcode%");                       
+	}                    
+ })->whereHas('user',function($query) use($user_search_arr){                                                
+ 	if(count($user_search_arr)>0){                                                       
+	 	$counter = 0;                            
+	  	foreach($user_search_arr as $field_key => $field_val){                                
+		  	if($counter==0){                                    
+				$query->where($field_key,'Like',"%$field_val%"); 
+			 }else{                                    
+				if($field_key=='')                                    
+				$query->orWhere($field_key,'Like',"%$field_val%");                                
+			}                                
+		  	$counter++;       
+	  	}                                                    
+  	}                                          
+})->paginate($perPage);
+
+
+=============================================
+
+Today's Task- Designed and developed structure for Patient Information Module.- Designed and developed structure for Health Module.- Designed and developed structure for Insurance Module.
+
+Today's update- Did the register patient functionality.- Added Bootstrap validation for Patient information, patient contact, patient insurance and patient health module.- Write the code for MRN generation- Write the functionality for Visitor number generation.- Design and developed the Patient profile page.
+
+
+Today's Update - Did the changes in Patient information module.- File upload and management functionality- Custom search functionlity for patient module.
+
+
+==============================================
+
+$("#first_name").val("Jenny123");
+$("#middle_name").val("Geogre");
+$("#last_name").val("Shena");
+$("#guardian_name").val("gEOGRE");
+$("#dob").val('12/11/1990');
+$("#gender").val("FEMALE");
+$("#marital_status").val("SINGLE");
+$("#blood_group").val("B+VE");
+$("#occupation").val("Software engineer");
+$("#organization_name").val("AMDOCS");
+$("#current_address").val('Cureent adresss........');
+$("#phone_number").val("896764523");
+$("#national_id").val("GH343434");
+$("#policy_name").val("Jeevan bima");
+$("#policy_number").val("POLD3434");
+$("#agency").val("LIC");
+$("#email").val('jenny@gmail.com');
+$("#nationality").val("Indian");
+$("#id_type").val("PASSPORT");
+$("#id_number").val("PDFG34987");
+$("#allergies_type").val("OTHER");
+$("#allergens").val("asdhasjhdvasvdvsdbnasvdbnvsbnd");
+$("#medical_history").val("ashdjfashvdhsvbvsadbnvd");
+$("#family_medical_history").val("ashdfghascdghascdgh");
+$("#imp_note").val("asdiAIOEYIUWDBSADHSDASGD");
+
+$("#garentor_name").val("Jenny");
+$("#garentor_gender").val();
+$("#garentor_relation").val();
+
+===================================================================================
+     id: 9,
+     mrn: "MHCAHZ000007",
+     is_newborn: 1,
+     first_name: "New Born",
+     middle_name: "sdsad",
+     last_name: "dsadsd",
+     guardian_name: "sadsad",
+     dob: "2017-03-28",
+     birth_time: "06:34:33",
+     gender: "MALE",
+     marital_status: "SINGLE",
+     blood_group: "A+VE",
+     religion: "HINDU",
+     occupation: "",
+     organization_name: "",
+     profile_pic: "2017-03-29_1490794605.jpg",
+     created_by: 1,
+     updated_by: 1,
+     created_at: "2017-03-28 13:10:08",
+     updated_at: "2017-03-29 13:36:45",
+     deleted_at: null,
+     PatientContact: App\Models\PatientContact {#889
+       id: 8,
+       patient_id: 9,
+       current_address: "Leela Palace, Kodhihalli",
+       current_city_id: 20432,
+       current_state_id: 1411,
+       current_country_id: 84,
+       current_pincode: "897667",
+       permanent_address: "Leela Palace, Kodhihalli",
+       permanent_country_id: 84,
+       permanent_state_id: 1411,
+       permanent_city_id: 20432,
+       permanent_pincode: "897667",
+       phone_number: "7896789988",
+       alt_phone_number: "7896789988",
+       email: "asaSASaASaS@gmail.com",
+       nationality: "ASaS",
+       id_type: "AADHAR CARD",
+       id_number: "ASAS",
+       created_at: "2017-03-28 13:10:08",
+       updated_at: "2017-03-29 13:36:45",
+       deleted_at: null,
+       country: App\Models\Country {#894
+         id: 84,
+         sortname: "GI",
+         name: "Gibraltar",
+         phonecode: 350,
+       },
+       state: App\Models\State {#895
+         id: 1411,
+         name: "Gibraltar",
+         country_id: 84,
+       },
+       city: App\Models\City {#896
+         id: 20432,
+         name: "Gibraltar",
+         state_id: 1411,
+       },
+       permanentCountry: App\Models\Country {#897
+         id: 84,
+         sortname: "GI",
+         name: "Gibraltar",
+         phonecode: 350,
+       },
+       permanentState: App\Models\State {#898
+         id: 1411,
+         name: "Gibraltar",
+         country_id: 84,
+       },
+       permanentCity: App\Models\City {#899
+         id: 20432,
+         name: "Gibraltar",
+         state_id: 1411,
+       },
+     },
+     PatientHealthDetail: App\Models\PatientHealthDetail {#891
+       id: 8,
+       patient_id: 9,
+       allergies_type: "FOOD ALLERGIES",
+       allergens: "NA",
+       medical_history: "NA",
+       family_medical_history: "NA",
+       imp_note: "NA",
+       created_at: "2017-03-28 13:10:08",
+       updated_at: "2017-03-29 13:36:45",
+       deleted_at: null,
+     },
+     PatientInsurance: App\Models\PatientInsurance {#893
+       id: 7,
+       patient_id: 9,
+       guarantor_name: "asAS",
+       guarantor_gender: "FEMALE",
+       guarantor_relation: "ASAS",
+       national_id: "asaS",
+       policy_number: "ASas",
+       policy_name: "asaS",
+       agency: "ASASsa",
+       created_at: "2017-03-28 13:10:08",
+       updated_at: "2017-03-29 13:36:45",
+       deleted_at: null,
+     },
+   }
+=====================================
+//App\Models\PatientInformation::where('mrn','MHCAHZ000007')->select('id','first_name','last_name','dob','gender')->with(['PatientContact','PatientContact.country'])->first();
+
+        //App\Models\PatientInformation::select('first_name','last_name','dob','gender','id')->where('mrn', 'like', "%MHCAHZ000007%")->with(['PatientContact' => function($query) {$query->select('patient_id','id', 'email','phone_number','current_city_id','current_state_id','current_country_id');},'PatientContact.city','PatientContact.state','PatientContact.country'])->get();
+
+Date-30march
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   app/Exceptions/Handler.php
+	deleted:    app/Http/Controllers/Api/PatientInformationController.php
+	modified:   app/Http/Kernel.php
+	modified:   app/Http/Middleware/VerifyApiToken.php
+	modified:   app/Traits/AuthorizesApiRequests.php
+	modified:   config/constants.php
+	modified:   resources/views/patient_information/form.blade.php
+	modified:   resources/views/patient_information/index.blade.php
+	modified:   routes/api.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	app/Http/Controllers/Api/ApiController.php
+	app/Http/Controllers/Api/Patients/
+	app/Http/Middleware/ValidateRequest.php
+	app/Traits/RestExceptionHandlerTrait.php
+	app/Traits/RestTrait.php
+	config/api.php
+	docs/
+	npm-debug.log
+	resources/lang/en/errors.php
+	resources/views/admin/docs/
+	routes/common_api_routes.php
+
+
