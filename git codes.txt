@@ -318,3 +318,9 @@ Untracked files:
 	routes/common_api_routes.php
 
 
+----------------------------------------------------
+Add test cases
+Form redesiged
+Search functioanlity
+Add profile pic in index paage
+Add close button in search form
