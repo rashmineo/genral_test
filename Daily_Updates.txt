@@ -104,7 +104,79 @@ Today's update - 31st March
 - Worked on collection for web services.
 - Created a Api document for doctor belongs to specific speciality list web service using aglio.
 
+=========================================================
+Today's - 3rd April
+- Did the Changes in specialities api schema and made it dynamic.
+- Did the changes on doctors api and made it dynamic
+- Did the Setup of Log packages composer.
+- Did the changes in sidebar for error logs
+- Did the Changes in api docs.
+- Did the Changes in api folder structure and also changed the schema routes.
+- Discussion with Ankit and Nishant on HIS API and Test management module.
+===========================================================
 
+Today's update- 4th April
+- Redesigned the Patient form
+- Removed Pagination from specialities and doctor web services.
+- Updated the docs of specialities and doctor web services as per new modification.
+- Functionality for start and end date filter for doctor API.
+- Functionality for start and end date filter for specialities API.
+- Created migration for Tests module.
+
+Log viewer resources
+
+==========================================================
+Test Controller
+Test model
+Create View
+routes
+Merged code git
+Sidebar menu
+Design tests form
+Designed subtests form
+curd for tests
+curd for subtest
+
+===========================================================
+Today's update- 5th April
+	
+- Created API for doctors lists with start and end date filters.
+- Created APi document for Doctors web service.
+- Created migration for Patient Test module.
+- Designed schema and form for Patient Test module.
+- Did the curd for Patient Test module.
+- Did sidebar menu modification.
+
+==========================================================
+Today's Update - 6th April
+- Designed schema and form for Patient Sub Test module.
+- Created curd for Sub Test Module.
+- Added constraints for is verified and user active in Doctors Api.
+- Error key modification in specialities and doctors API.
+- Merged the code from master repo.
+- Resolved the conflict from code.
+- Added specialities code in doctors api
+- Discussion with Ankit and Vishal on Test management module.
+- Started working on Test module modifications.
+=======================================================
+Today's Update - 7th April
+
+- Added new functionality in Test module for test having no subtest.
+- Did the changes in view part for both Test and sub test module.
+- Did functionality for test number generation.
+- Did search functionality for Test module.
+- Did search functionality for Sub Test module.
+- Merged the code from master repo.
+- Dynamic redirection for test module.
+
+-------------------------------------------------------------
+Today's Update - 10th April
+- added query filter for parent test list
+- added realtionship
+- Added speciality id in tests table
+- Schema discussion
+- Test and sub test count 
+- 
 
 To: aneesh@ndtv.com, nishantp@ndtv.com
 
