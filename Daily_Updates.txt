@@ -178,6 +178,24 @@ Today's Update - 10th April
 - Test and sub test count 
 - 
 
+================================================================
+Today's Update - 10th April
+- Had a discussion for Test and sub test module schema
+- Added query filter for parent test list
+- Added query filter for Child test list
+- Created a relationship schema for test and subtest
+- Added new field speciality id in tests table
+- Added a count of subtest in Test index view and details view pages
+
+=============================================================
+Today's Update - 11th April
+- Did the Cruds changes for specialities in Test and Subtest
+- Test and sub test count 
+- Added a list of subtest in Test index view and details view pages.
+- Worked on customized validations for parent and child test
+- 
+- KT for HIS with Nishant and Tilak 
+
 To: aneesh@ndtv.com, nishantp@ndtv.com
 
 CC: sharad.pai@wwindia.com, vivek.barsaiyan@wwindia.com, priti.sharma@neosofttech.com
